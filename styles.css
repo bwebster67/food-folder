@@ -1,5 +1,9 @@
 /* styles.css */
 
-listItem {
+.list-item {
   display: flex;
+}
+
+.list-item p {
+  margin: 8px;
 }

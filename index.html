@@ -3,11 +3,24 @@
 	<title>Food Folder</title>
 </head>
 
-<h2>Grocery List</h2>
+<body>
+	<div id="loginSection">
+		<input type="email" id="emailInput" placeholder="Email">
+		<input type="password" id="passwordInput" placeholder="Password">
+		<button id="loginButton">Log In</button>
+		<p id="loginMessage"></p>
+	</div>
 
-<div id="itemList">
-</div>
+	<div id="mainSection">
+		<h2>Grocery List</h2>
 
-<input type="checkbox">
+		<div id="itemList">
+		</div>
 
-<script src="index.js"></script>
+		<button class="writeDataButton" id="writeDataButton">write data button</button>
+		<button id="logoutButton" style="margin-left: 20px;">Log Out</button>
+		<!-- <button id="loginButton">Login</button> -->
+
+		<script src="script.js" type="module"></script>
+	</div>
+</body>
